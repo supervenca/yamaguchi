@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li {list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+/* обнуление стилей */
+
+
+.block-white {
+    background-color: #F3F3F3;
+    width: 100%;
+    min-height: 900px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    box-sizing: border-box;
+    padding-bottom: 25px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+.block-white h1 {
+    font-size: 62px;
+    line-height: 100%;
+    color: #0B64FE;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.block-white p {
+    font-size: 22px;
+    line-height: 170%;
+    color: #181818;
+
+}
+
+.block-white-img {
+    display: block;
+    max-width: 55%;
+}
+.block-white-img img {
+    max-width: 100%;
+}
+
+#table-top {
+z-index: 0;
+}
+#table-bottom {
+z-index: 1;
+}
+
+
+.block-white-text {
+    display: block;
+    max-width: 45%;
+    width: 416px;
+}
