@@ -76,13 +76,20 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     width: 416px;
 }
 
-.block-white-img {
+.block-white-table {
     display: block;
     width: 975.79px;
 }
-.block-white-img img {
+
+.block-white-table-top {
+
+}
+.block-white-table-bottom {
+    
+}
+
+.block-white-table img {
     position: absolute;
-    height: 782.89px;
     left: 62.61px;
     top: 75.12px;
 }
@@ -100,8 +107,8 @@ z-index: 1;
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    left: 253.49px;
-    top: 393.79px;
+    left: 530px;
+    top: 550px;
 }
 
 .block-white-buttons button {
@@ -131,9 +138,9 @@ z-index: 1;
         font-size: 38px;
     }
 
-    /*.block-white-img {} */
+    /*.block-white-table {} */
 
-    .block-white-img img {
+    .block-white-table img {
         max-width: 100%;
     }
 
