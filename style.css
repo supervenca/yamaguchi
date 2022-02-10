@@ -74,6 +74,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     display: block;
     max-width: 45%;
     width: 416px;
+    z-index: 2;
 }
 
 .block-white-table {
@@ -120,6 +121,10 @@ z-index: 1;
     color: #000000;
     font-size: 40px;
 }
+.block-white-buttons button:hover {
+
+    background-color: transparent;
+}
 
 
 
@@ -132,9 +137,14 @@ z-index: 1;
         padding-left: 12px;
         padding-right: 12px;
     }
-    .block-white h1 {
+
+    .block-white-text {
+        max-width: 100%;
+    }
+
+    .block-white-text h1 {
         font-family: 'Bebas Neue', sans-serif;
-        font-weight: bold;
+        font-weight: 700;
         font-size: 38px;
     }
 
@@ -144,9 +154,6 @@ z-index: 1;
         max-width: 100%;
     }
 
-    .block-white-text {
-        max-width: 100%;
-    }
 
     .block-white-buttons button {
         height: 60px;
