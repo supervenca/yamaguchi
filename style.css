@@ -43,19 +43,16 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 .block-white {
     background-color: #F3F3F3;
-    width: 100%;
-    min-height: 900px;
+    max-width: 100%;
+    max-height: 100%;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 300;
-    box-sizing: border-box;
-    padding-bottom: 25px;
-
+    margin-bottom: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 .block-white h1 {
     font-size: 62px;
@@ -71,28 +68,31 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 }
 .block-white-text {
-    display: block;
-    max-width: 45%;
-    width: 416px;
+    display: flex;
+    flex-direction: column;
+    box-sizing:border-box;
     z-index: 2;
 }
 
 .block-white-table {
-    display: block;
-    width: 975.79px;
+    display: flex;
+    flex-direction: column;
+    box-sizing:border-box;
+    position: relative;
 }
 
-.block-white-table-top {
-
+/*
+.block-white-table-top {   
+    
 }
 .block-white-table-bottom {
     
 }
+*/
+
 
 .block-white-table img {
-    position: absolute;
-    left: 62.61px;
-    top: 75.12px;
+    position: relative;
 }
 
 
@@ -107,12 +107,11 @@ z-index: 1;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: absolute;
-    left: 530px;
-    top: 550px;
+    position: relative;
+    
 }
 
-.block-white-buttons button {
+.blue-button {
     width: 200px;
     height: 200px;
     background-color: #A6FFFF;
@@ -121,9 +120,9 @@ z-index: 1;
     color: #000000;
     font-size: 40px;
 }
-.block-white-buttons button:hover {
+.blue-button:hover {
 
-    background-color: transparent;
+    background-color: #57a5a5;
 }
 
 
@@ -155,7 +154,7 @@ z-index: 1;
     }
 
 
-    .block-white-buttons button {
+    .blue-button {
         height: 60px;
         width: 60px;
         font-size: 12px;
