@@ -43,16 +43,15 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 .block-white {
     background-color: #F3F3F3;
-    max-width: 100%;
-    max-height: 100%;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 300;
     margin-bottom: 25px;
+    padding-right: 20%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .block-white h1 {
     font-size: 62px;
@@ -72,43 +71,36 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     flex-direction: column;
     box-sizing:border-box;
     z-index: 2;
+    max-width: 500px;
 }
 
 .block-white-table {
     display: flex;
     flex-direction: column;
-    box-sizing:border-box;
-    position: relative;
 }
 
-/*
-.block-white-table-top {   
-    
+.block-white-table-top {
+    z-index: 0;
 }
 .block-white-table-bottom {
-    
-}
-*/
-
-
-.block-white-table img {
-    position: relative;
+    z-index: 1;
+    margin-top: -65%;
 }
 
-
-#table-top {
-z-index: 0;
-}
-#table-bottom {
-z-index: 1;
+#table-top, #table-bottom {
+    display: block;
+	max-width:100%;
+	height: auto;
+    object-fit: cover;
 }
 
 .block-white-buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: relative;
+    text-align: center;
     
+    z-index: 2;
 }
 
 .blue-button {
