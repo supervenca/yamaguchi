@@ -89,7 +89,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 #table-top, #table-bottom {
     display: block;
-	max-width:100%;
+	max-width: 100%;
 	height: auto;
     object-fit: cover;
 }
@@ -99,7 +99,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    
+    margin-top: -35%;
     z-index: 2;
 }
 
