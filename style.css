@@ -46,7 +46,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 300;
-    margin-bottom: 25px;
     padding-right: 20%;
     display: flex;
     flex-direction: row;
@@ -72,6 +71,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
     box-sizing:border-box;
     z-index: 2;
     max-width: 500px;
+    padding-bottom: 25px;
 }
 
 .block-white-table {
@@ -88,10 +88,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 
 #table-top, #table-bottom {
-    display: block;
-	max-width: 100%;
-	height: auto;
-    object-fit: cover;
+    display: flex;
+    max-width: 100%;
 }
 
 .block-white-buttons{
